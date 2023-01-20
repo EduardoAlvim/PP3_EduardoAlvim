@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+
+    <h1>
+        CATLAND
+    </h1>
+    <br><br>
+    <fieldset class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-ms-3 col-xs-12 col-lg-3">
+                    <p class="dest"><a href="Principal.html">HOME</a></p>
+                </div>
+                <div class="col-md-3 col-ms-3 col-xs-12 col-lg-3">
+                    <p><a href="Atividades.html">ATIVIDADES</a></p>
+                </div>
+                <div class="col-md-3 col-ms-3 col-xs-12 col-lg-3">
+                    <p><a href="Local.html">LOCALIZAÇÃO</a></p>
+                </div>
+                <div class="col-md-3 col-ms-3 col-xs-12 col-lg-3">
+                    <p><a href="Contato.html">CONTATO</a></p>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <br><br>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+    <br><br>
+    <fieldset>
+        <br>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>A cada clique no icone abaixo, uma quantidade em ração é doada!</h1>
+                <span id="icon" class="glyphicon glyphicon-download"></span><a href="#">Quantidade: <span id="spnBdg"
+                        class="badge">0</span></a><br>
+            </div>
+        </div>
+    </fieldset>
+    <script>
+        var num = 0;
+        var span = document.getElementById("spnBdg");
+        $(document).ready(function () {
+            $("#icon").click(function () {
+                num = num + 1;
+                span.textContent = " " + String(num) + " ";
+            });
+        });
+    </script>
+    <br>
+    <br>
+    <fieldset>
+        <div class="conteudo-quem-somos">
+            <div class="image-quem-somos">
+                <img alt="" src="../Imagens/perla_katia2.jpg">
+            </div>
+            <div class="texto1">
+                <h1>QUEM SOMOS</h1>
+                <p>Fundada em 2012, a Catland é uma ONG
+                    (Organização Não Governamental) que tem como objetivo
+                    sensibilizar a sociedade sobre a guarda animal responsável,
+                    colaborar com o controle populacional dos gatos de rua e encontrar lares responsáveis para o maior
+                    número
+                    possível deles.
+                    A Catland já atendeu mais de 6.300 gatos em situação de abandono e busca por meio de ações efetivas,
+
+                    como castração solidária, palestras, resgates e adoção,
+                    contribuir para a construção de um mundo melhor.
+                    Atualmente, a ONG, que já viabilizou diretamente a adoção de quase 6.000 gatinhos,
+                    conta com mais de 200 voluntários ativos que colaboram em diversas áreas como:
+                    os cuidados de limpeza, eventos, mídias, saúde, TI, administrativo, RH, jurídico, logistica e
+                    bem-estar dos
+                    mais de 300 animais abrigados em sua sede
+                    e em lares temporários.
+                    Para manter-se em funcionamento, a Catland conta somente com doações da comunidade e parcerias com
+                    empresas
+                    que visam colaborar com a causa.
+                    Entretanto, os custos mensais dificilmente são cobertos por esses valores e as despesas com aluguel,
+                    alimentação, limpeza e cuidados veterinários,
+                    entre outros, aumentam a cada dia.
+                    Para colaborar com a Catland e manter viva a esperança de ajudar cada vez mais gatinhos em situação
+                    de
+                    risco,
+                    colabore com as campanhas de arrecadação,
+                    compareça aos eventos, faça uma doação, ajude adquirindo os produtos da lojinha,
+                    seja voluntário, compartilhe, divulgue e ajude-nos a fazer a diferença
+                    na vida deles e na nossa. Juntos somos melhores! #GoCatland</p>
+            </div>
+        </div>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <div class="conteudo-quemFaz">
+            <div class="texto2">
+                <h1>QUEM FAZ A CATLAND?</h1>
+                <p>A Catland não é uma pessoa. Não é um momento. Não é uma entidade. Não é um lugar.
+                    A Catland é sentimento, é força, coragem. A Catland é luta, de quem luta todos os dias. A Catland
+                    está
+                    nos
+                    pequenos detalhes, pequenos gestos. A Catland é um sonho possível em meio à realidade. É cada um que
+                    de
+                    pedacinho em pedacinho completa o todo. A Catland somos nós, e #JuntosSomosMelhores.</p>
+            </div>
+            <div class="imagem-quemFaz">
+                <img alt="" src="../Imagens/db53586ad2b0dc89b166ae69f1624ec0.png">
+            </div>
+        </div>
+    </fieldset>
+    <br><br>
+
+    <footer>
+        <div>
+            <h2>CATLAND</h2>
+            <p>Catland Adoção de Gatinhos<br>
+                CNPJ 20.521.867/0001-08<br>
+                contato@catland.org.br</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

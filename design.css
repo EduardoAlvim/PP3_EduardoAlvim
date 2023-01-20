@@ -1,0 +1,462 @@
+body {
+    background-color: #e2e2e2;
+    color: #333;
+    text-align: justify;
+    font-size: 14px;
+    margin: 0;
+}
+
+ul li {
+    color: gray;
+}
+
+b {
+    color: white;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: hotpink;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hotpink;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hotpink;
+}
+
+fieldset {
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    background-image: url('../Imagens/background-site_241919.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    line-height: 10PX;
+}
+
+.conteudo-quem-somos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.image-quem-somos {
+    width: 30%;
+    margin: 20px 0 0 20px;
+}
+
+.texto1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    align-items: baseline;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    padding-right: 10%;
+}
+
+.conteudo-quemFaz{
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+
+.imagem-quemFaz{
+    width: 30%;
+    margin: 20px 0 0 20px;
+    margin-left: 200px;
+}
+
+.imagem-quemFaz img{
+    width: 200px;
+    height: 300px;
+}
+
+.texto2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    align-items: baseline;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+
+.conteudo-mensagem {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.imagem-mensagem {
+    width: 30%;
+    margin: 20px 0 0 20px;
+}
+
+.imagem-mensagem img {
+    width: 200px;
+    height: 300px;
+}
+
+
+.texto-mensagem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    align-items: baseline;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.conteudo-local {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.local {
+    width: 30%;
+    margin: 20px 0 0 20px;
+}
+
+.local iframe {
+    width: 200px;
+    height: 300px;
+}
+
+.texto-local {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    align-items: baseline;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.conteudo-tabela {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.lugar-tabela {
+    width: 30%;
+    margin: 20px 0 0 20px;
+}
+
+.lugar {
+    width: 300px;
+    height: 300px;
+}
+
+.texto-tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: baseline;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.res {
+    background-color: white;
+    color: red;
+}
+
+#sub {
+    background-color: white;
+    color: blue;
+}
+
+input[type="text"] {
+    margin: 10px;
+}
+
+a {
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: hotpink;
+}
+
+.menu {
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: #fff;
+    color: #333;
+    line-height: 10PX;
+    text-align: center;
+}
+
+.tabela {
+    border: 1px sólido #C0C0C0;
+    border-collapse: colapso;
+    padding: 5px;
+}
+
+.tabela th {
+    border: 1px sólido #C0C0C0;
+    padding: 10px;
+    background: #F0F0F0;
+}
+
+.tabela td {
+    border: 1px sólido #C0C0C0;
+    padding: 10px;
+}
+
+.conteudo-menu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo-menu a {
+    padding: 0;
+    margin:10px;
+}
+
+footer {
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: #fff;
+    color: #333;
+    text-align: left;
+    width: 100%;
+}
+
+.dest{
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#carrossel .carousel-inner, #carrossel .item{
+    height: 90vh;
+}
+
+.jumbotron h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: hotpink;
+}
+
+@media only screen and (max-width: 775px) {
+    fieldset {
+        border-top: 1px solid #d8d8d8;
+        border-bottom: 1px solid #d8d8d8;
+        background-image: url('../Imagens/background-site_241919.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #333;
+        line-height: 1.6;
+    }
+    
+    .conteudo-mensagem{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .imagem-mensagem{
+        align-items: center;
+    }
+
+    .conteudo-quem-somos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .image-quem-somos {
+        width: 100%;
+        margin: 10px 0 0 10px;
+    }
+
+
+
+    .image-quem-somos img{
+        border-radius: 15px;
+    }
+    
+    footer div{
+        text-align: center;
+    }
+
+    .conteudo-menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-quemFaz{
+        align-items: center;
+    }
+
+    .image-quem-somos img{
+        height: 65vh;
+    }
+    
+    .texto1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: baseline;
+        line-height: 1.5;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.800rem;
+        padding-right: 10%;
+    }
+    
+    .conteudo-quemFaz{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .imagem-quemFaz{
+        width: 30%;
+        margin: 20px 0 0 20px;
+    }
+    
+    .imagem-quemFaz img{
+        width: 100px;
+        height: 100px;
+    }
+
+    textarea{
+        padding: 10px;
+        border-radius: 25px;
+        width: 75%;
+    }
+    
+    .texto2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+        align-items: baseline;
+        line-height: 1.5;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    
+    .conteudo-mensagem {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .imagem-mensagem {
+        margin: 20px 0 0 20px;
+    }
+    
+    .imagem-mensagem img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    
+    .texto-mensagem {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+        align-items: baseline;
+        line-height: 1.5;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    
+    .conteudo-local {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .local {
+        width: 30%;
+        margin: 20px 0 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .local iframe {
+        width: 200px;
+        height: 150px;
+    }
+    
+    .texto-local {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+        align-items: baseline;
+        line-height: 1.5;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+
+ 
+    
+    .conteudo-tabela {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .lugar-tabela {
+        width: 30%;
+        margin: 20px 0 0 20px;
+    }
+    
+    .tabela {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .texto-tabela {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        align-items: baseline;
+        line-height: 1.5;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+
+    footer {
+        border-top: 1px solid #d8d8d8;
+        border-bottom: 1px solid #d8d8d8;
+        background-color: #fff;
+        color: #333;
+        text-align: left;
+        width: 100%;
+    }
+}
